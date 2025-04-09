@@ -23,7 +23,7 @@ fi
 # pnpm
 export PNPM_HOME="/Users/josh/Library/pnpm"
 case ":$PATH:" in
-*":$PNPM_HOME:"*)
+*":$PNPM_HOME:"*) 
   ;; 
 *) export PATH="$PNPM_HOME:$PATH" ;; 
 esac
@@ -40,5 +40,5 @@ alias omzr="omz reload"
 alias c="clear"
 alias e='exit'
 alias ls="eza --icons=always --color=always"
-alias vim='nvim'
+#alias vim='nvim'
 alias ks="tmux kill-server"

@@ -23,6 +23,8 @@ git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotf
 # investigate install scripts and bootstrapping tools.
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.vimrc ~/.vimrc
+ln -s ~/.dotfiles/.vimrc.plug ~/.vimrc.plug
 ln -s ~/.dotfiles/.config/ghostty/ ~/.config/ghostty
 ln -s ~/.dotfiles/.config/nvim/ ~/.config/nvim
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
