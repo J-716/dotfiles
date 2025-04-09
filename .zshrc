@@ -8,9 +8,9 @@ plugins=(git fnm node npm yarn brew zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # starship.rs
-export STARSHIP_CONFIG=~/.config/starship/config.toml
-export STARSHIP_CACHE=~/.config/starship/cache
-eval "$(starship init zsh)"
+#export STARSHIP_CONFIG=~/.config/starship/config.toml
+#export STARSHIP_CACHE=~/.config/starship/cache
+#eval "$(starship init zsh)"
 
 # fnm
 eval "$(fnm env --use-on-cd --shell zsh)"
@@ -23,8 +23,9 @@ fi
 # pnpm
 export PNPM_HOME="/Users/josh/Library/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+*":$PNPM_HOME:"*)
+  ;; 
+*) export PATH="$PNPM_HOME:$PATH" ;; 
 esac
 
 # bun completions

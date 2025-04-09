@@ -1,0 +1,28 @@
+# font family
+font-family = Geist Mono
+
+# font size
+font-size = 14
+
+# opacity of split windows
+unfocused-split-opacity = 0.97
+
+# cursor style
+cursor-style-blink = true
+
+# clipboard settings
+clipboard-read = allow
+clipboard-write = allow
+
+# allow option to work as alt on macos
+macos-option-as-alt = true
+
+# shows ghostty as title
+title = ghostty
+
+# window size
+window-width = 90
+window-height = 30
+
+window-padding-balance = true
+window-padding-x = 0
