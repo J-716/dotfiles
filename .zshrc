@@ -21,7 +21,7 @@ if [ -d "$FNM_PATH" ]; then
 fi
 
 # pnpm
-export PNPM_HOME="/Users/josh/Library/pnpm"
+export PNPM_HOME="/Users/jay/Library/pnpm"
 case ":$PATH:" in
 *":$PNPM_HOME:"*) 
   ;; 
