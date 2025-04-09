@@ -108,5 +108,8 @@
     "stylesheet",
     "titlebar"
   ],
-  "cSpell.words": ["robbyrussell"]
+  "cSpell.words": ["robbyrussell"],
+  "files.associations": {
+    "config": "plaintext"
+  }
 }
