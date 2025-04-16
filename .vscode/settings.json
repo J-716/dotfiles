@@ -28,6 +28,7 @@
   "notebook.output.fontFamily": "Geist Mono",
   "markdown.preview.fontFamily": "Geist Mono",
   "editor.inlayHints.fontFamily": "Geist Mono",
+  "editor.fontLigatures": true,
 
   // font size
   "editor.fontSize": 14,
@@ -99,17 +100,36 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editor.enablePreview": false,
   "cSpell.userWords": [
+    "borderless",
     "donot",
     "esbenp",
     "lintstagedrc",
     "lockb",
     "markdownlintignore",
     "moxer",
+    "robbyrussell",
     "stylesheet",
     "titlebar"
   ],
-  "cSpell.words": ["robbyrussell"],
   "files.associations": {
     "config": "plaintext"
+  },
+  "cSpell.words": [
+    "colour",
+    "colours",
+    "cyberdream",
+    "Cyberdream",
+    "desaturated",
+    "fillchars",
+    "gitsigns",
+    "keymap",
+    "noice",
+    "nvim",
+    "scottmckendry",
+    "wincmd"
+  ],
+  "Lua.diagnostics.globals": ["vim", "logger"],
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
   }
 }

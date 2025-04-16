@@ -1,58 +1,38 @@
-# background & foreground
-background = #110f17
-foreground = #edecee
+palette = 0=#16181a
+palette = 1=#ff6e5e
+palette = 2=#5eff6c
+palette = 3=#f1ff5e
+palette = 4=#5ea1ff
+palette = 5=#bd5eff
+palette = 6=#5ef1ff
+palette = 7=#ffffff
+palette = 8=#3c4048
+palette = 9=#ff6e5e
+palette = 10=#5eff6c
+palette = 11=#f1ff5e
+palette = 12=#5ea1ff
+palette = 13=#bd5eff
+palette = 14=#5ef1ff
+palette = 15=#ffffff
 
-# selection colors
-selection-background = #110f17
-selection-foreground = #edecee
-
-# cursor colors
-cursor-color = #edecee
-cursor-text = #110f17
-
-# black
-palette = 0=#1c1b22
-palette = 8=#4d4d4d
-
-# red
-palette = 1=#ff6767
-palette = 9=#ff6767
-
-# green
-palette = 2=#61ffca
-palette = 10=#61ffca
-
-# yellow
-palette = 3=#ffca85
-palette = 11=#ffca85
-
-# blue
-palette = 4=#a277ff
-palette = 12=#a277ff
-
-# magenta
-palette = 5=#a277ff
-palette = 13=#a277ff
-
-# cyan
-palette = 6=#61ffca
-palette = 14=#61ffca
-
-# white
-palette = 7=#edecee
-palette = 15=#edecee
+background = #16181a
+foreground = #ffffff
+cursor-color = #ffffff
+selection-background = #3c4048
+selection-foreground = #ffffff
 
 
 # font family
 font-family = Geist Mono
 
 # font size
-font-size = 14
+font-size = 20
 
 # opacity of split windows
 unfocused-split-opacity = 0.97
 
 # cursor style
+cursor-style = block
 cursor-style-blink = true
 
 # clipboard settings
