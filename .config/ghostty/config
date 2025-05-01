@@ -1,0 +1,45 @@
+# ghostty theme
+theme = catppuccin-macchiato
+
+# shell integrations
+shell-integration = fish
+quit-after-last-window-closed = true
+
+# font family
+font-family = Geist Mono
+font-style = Regular
+font-style-italic = Regular Italic
+font-style-bold = Bold
+font-style-bold-italic = Bold Italic
+
+# font size
+font-size = 20
+
+# opacity of split windows
+unfocused-split-opacity = 0.97
+
+# set the background-opacity to be fully opaque
+background-opacity = 1.0
+
+# cursor style
+cursor-style-blink = true
+
+# clipboard settings
+clipboard-read = allow
+clipboard-write = allow
+
+# macos options
+macos-option-as-alt = true
+macos-titlebar-proxy-icon = hidden
+
+# shows ghostty as title
+title = ghostty
+
+# window size
+window-width = 90
+window-height = 30
+window-colorspace = display-p3
+window-padding-color = background
+window-padding-balance = true
+window-padding-x = 0
+window-padding-y = 0
