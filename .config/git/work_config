@@ -1,0 +1,4 @@
+[user]
+	email = "jay.designs716@gmail.com"
+	name = "Josh Meyer"
+# signingkey is now injected from GIT_CONFIG_PARAMETERS via direnv/.envrc
